@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+section#home-Slider {
+    background: linear-gradient(#00000008,#0000008a),url(./images/donation0111.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content h1 {
+    font-size: 76px;
+    color: white;
+    width: 803px;
+    text-align: center;
+    margin: auto;
+    padding-top: 200px;
+}
+.content p {
+    color: white;
+    font-size: 22px;
+    width: 870px;
+    text-align: center;
+    margin: auto;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    padding-top:30px;
+}
+button#donate-btn {
+    background-color: #FF5959;
+    padding: 15px 40px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    border-radius: 7px;
+    margin: auto;
+    display:
+    block;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.content-head-line {
+    overflow: hidden;
+}
+
+.content-head-line h1 {
+    font-size: 50px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.content-head-line p {
+    font-size: 20px;
+    width: 530px;
+    text-align: center;
+    line-height: 33px;
+    margin: auto;
+    margin-bottom: 30px;
+}
